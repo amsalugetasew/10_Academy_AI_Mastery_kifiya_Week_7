@@ -2,15 +2,18 @@ from telethon import TelegramClient
 import csv
 import os
 import asyncio
-
+from dotenv import load_dotenv
 class Scrapper:
     def __init__(self):
         self.df = {}
 
     async def DataCrawller(self):
-        api_id = '27479195'
-        api_hash = 'e422a42038d049393885b0bf8feb9574'
-        phone = "+251928531589"
+
+        # Load environment variables
+        load_dotenv('.env')
+        api_idd = os.getenv('TG_API_ID')
+        api_hash = os.getenv('TG_API_HASH')
+        phone = os.getenv('phone')
 
         # Function to scrape data from a single channel
         async def scrape_channel(client, channel_username, writer, media_dir):
