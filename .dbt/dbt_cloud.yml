@@ -1,9 +1,4 @@
-name: '10_Academy_AI_Mastery_kifiya_Week_7'
-version: '1.0'
-config-version: 2
-
-profile: 'your_profile'  # Make sure this matches the profile name in profiles.yml
-
+version: "1"
 context:
   active-host: "ck852.us1.dbt.com"
   active-project: "70471823424525"
@@ -13,14 +8,7 @@ projects:
     account-name: "University of Gondar"
     account-id: "70471823421342"
     account-host: "ck852.us1.dbt.com"
-    token-name: "cloud-cli-51e5"
-    token-value: "dbtu_PLLBFGkodXeQqrLo1oWeCeonOQ77pioR6I8LMYWYFtF3wcvJfs"
-
-models:
-  10_Academy_AI_Mastery_kifiya_Week_7:
-    materialized: table  # This can be 'view' or 'table'
-
-
-#Recovery code WJAEF3GHESPA9E6KKJ1UK2U3   3UE5J5QQ16DHWGUNPMFZSF3E
+    token-name: "cloud-cli-bdaa"
+    token-value: "dbtu_rK7KHFc7rMKioTsJIt-6XSmPN6aadzpw8_wwTrwQslJDGIAU1A"
 
 

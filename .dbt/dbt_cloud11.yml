@@ -13,8 +13,8 @@ projects:
     account-name: "University of Gondar"
     account-id: "70471823421342"
     account-host: "ck852.us1.dbt.com"
-    token-name: "cloud-cli-bdaa"
-    token-value: "dbtu_rK7KHFc7rMKioTsJIt-6XSmPN6aadzpw8_wwTrwQslJDGIAU1A"
+    token-name: "cloud-cli-51e5"
+    token-value: "dbtu_PLLBFGkodXeQqrLo1oWeCeonOQ77pioR6I8LMYWYFtF3wcvJfs"
 
 models:
   10_Academy_AI_Mastery_kifiya_Week_7:
