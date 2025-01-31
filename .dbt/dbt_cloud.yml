@@ -1,0 +1,24 @@
+name: '10_Academy_AI_Mastery_kifiya_Week_7'
+version: '1.0'
+config-version: 2
+
+profile: 'your_profile'  # Make sure this matches the profile name in profiles.yml
+
+context:
+  active-host: "ck852.us1.dbt.com"
+  active-project: "70471823424525"
+projects:
+  - project-name: "Analytics"
+    project-id: "70471823424525"
+    account-name: "University of Gondar"
+    account-id: "70471823421342"
+    account-host: "ck852.us1.dbt.com"
+    token-name: "cloud-cli-51e5"
+    token-value: "dbtu_PLLBFGkodXeQqrLo1oWeCeonOQ77pioR6I8LMYWYFtF3wcvJfs"
+
+models:
+  10_Academy_AI_Mastery_kifiya_Week_7:
+    materialized: table  # This can be 'view' or 'table'
+
+
+

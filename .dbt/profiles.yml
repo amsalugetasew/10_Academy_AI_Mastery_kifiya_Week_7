@@ -1,0 +1,8 @@
+your_profile:
+  target: dev
+  outputs:
+    dev:
+      type: sqlite
+      database: C:/Users/Admin/10_Academy_AI_Mastery_kifiya_Week_7/data/telegram_messages.db  # Full path to your SQLite database file
+      threads: 1  # SQLite is single-threaded
+

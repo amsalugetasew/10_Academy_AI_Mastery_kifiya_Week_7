@@ -1,0 +1,9 @@
+name: '10_Academy_AI_Mastery_kifiya_Week_7'
+version: '1.0'
+config-version: 2
+
+profile: 'your_profile'  # Make sure this matches the profile name in profiles.yml
+
+models:
+  10_Academy_AI_Mastery_kifiya_Week_7:
+    materialized: table  # This can be 'view' or 'table'
