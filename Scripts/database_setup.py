@@ -32,6 +32,7 @@ def get_db_connection():
         logging.error(f"❌ Database connection failed: {e}")
         raise
 
+# Create Table
 def create_table(engine):
     """ Create telegram_messages table if it does not exist. """
     create_table_query = """
