@@ -1,3 +1,4 @@
+# for cloud DBT configuration 
 version: "1"
 context:
   active-host: "ck852.us1.dbt.com"
